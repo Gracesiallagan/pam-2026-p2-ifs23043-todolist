@@ -1,4 +1,4 @@
-rootProject.name = "pam-2026-p2-ifs23043-todolist"
+rootProject.name = "pam-p2-ifs18005"
 
 dependencyResolutionManagement {
     repositories {

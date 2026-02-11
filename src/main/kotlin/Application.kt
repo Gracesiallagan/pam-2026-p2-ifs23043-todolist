@@ -1,4 +1,3 @@
-
 package org.delcom
 
 import io.ktor.server.application.*
@@ -20,6 +19,8 @@ fun main(args: Array<String>) {
     dotenv.entries().forEach {
         System.setProperty(it.key, it.value)
     }
+//    val port = dotenv.get("APP_PORT").toInt()
+//    val host = dotenv.get("APP_HOST")
 
     EngineMain.main(args)
 }
